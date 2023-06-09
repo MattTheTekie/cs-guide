@@ -1,0 +1,1 @@
+import{_ as t,o as s,c as a,d as e,e as c}from"./app-3d979d38.js";const n={},o=e("h1",{id:"es教程",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#es教程","aria-hidden":"true"},"#"),c(" es教程")],-1),r=[o];function d(_,i){return s(),a("div",null,r)}const l=t(n,[["render",d],["__file","index.html.vue"]]);export{l as default};

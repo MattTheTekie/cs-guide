@@ -1,0 +1,1 @@
+import{_ as t,o as n,c as r,d as e,e as a}from"./app-3d979d38.js";const c={},o=e("h1",{id:"flutter-learning",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#flutter-learning","aria-hidden":"true"},"#"),a(" flutter learning")],-1),s=[o];function d(i,l){return n(),r("div",null,s)}const f=t(c,[["render",d],["__file","index.html.vue"]]);export{f as default};

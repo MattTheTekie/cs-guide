@@ -1,0 +1,1 @@
+import{_ as t,r as o,o as n,c,b as r,d as e,e as s}from"./app-3d979d38.js";const d={},_=e("h1",{id:"uniapp",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#uniapp","aria-hidden":"true"},"#"),s(" uniapp")],-1);function i(l,p){const a=o("AutoCatalog");return n(),c("div",null,[_,r(a)])}const h=t(d,[["render",i],["__file","index.html.vue"]]);export{h as default};

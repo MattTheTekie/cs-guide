@@ -1,0 +1,3 @@
+import{_ as e,o as t,c as a,a as i}from"./app-3d979d38.js";const n={},s=i(`<h1 id="git命令" tabindex="-1"><a class="header-anchor" href="#git命令" aria-hidden="true">#</a> git命令</h1><h2 id="git操作" tabindex="-1"><a class="header-anchor" href="#git操作" aria-hidden="true">#</a> git操作</h2><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>#查看git中文件数量
+git ls-files | wc -l
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div>`,3),d=[s];function r(c,l){return t(),a("div",null,d)}const h=e(n,[["render",r],["__file","git.html.vue"]]);export{h as default};

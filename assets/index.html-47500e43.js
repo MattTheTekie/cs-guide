@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,d as e,e as n}from"./app-3d979d38.js";const o={},r=e("h1",{id:"php教程",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#php教程","aria-hidden":"true"},"#"),n(" php教程")],-1),s=[r];function d(_,h){return a(),c("div",null,s)}const l=t(o,[["render",d],["__file","index.html.vue"]]);export{l as default};

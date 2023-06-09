@@ -1,0 +1,43 @@
+import{_ as t,r as p,o,c as l,d as n,e as s,b as c,a}from"./app-3d979d38.js";const i={},r=a(`<h1 id="webpack教程" tabindex="-1"><a class="header-anchor" href="#webpack教程" aria-hidden="true">#</a> webpack教程</h1><h2 id="loader兼容性" tabindex="-1"><a class="header-anchor" href="#loader兼容性" aria-hidden="true">#</a> loader兼容性</h2><table><thead><tr><th>名称</th><th>版本</th></tr></thead><tbody><tr><td>less-loader(建议用7.3.0)</td><td>8.0.0以上最低webpack5</td></tr><tr><td>sass-loader(建议用10.0.1)</td><td>11.0.0最低webpack5</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table><h2 id="复制资源的插件-copy-webpack-plugin" tabindex="-1"><a class="header-anchor" href="#复制资源的插件-copy-webpack-plugin" aria-hidden="true">#</a> 复制资源的插件:copy-webpack-plugin</h2><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code>yarn add copy<span class="token operator">-</span>webpack<span class="token operator">-</span>plugin
+
+<span class="token keyword">const</span> CopyPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;copy-webpack-plugin&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token keyword">new</span> <span class="token class-name">CopyPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      <span class="token literal-property property">patterns</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span> <span class="token literal-property property">from</span><span class="token operator">:</span> <span class="token string">&quot;source&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">to</span><span class="token operator">:</span> <span class="token string">&quot;dest&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span> <span class="token literal-property property">from</span><span class="token operator">:</span> <span class="token string">&quot;other&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">to</span><span class="token operator">:</span> <span class="token string">&quot;public&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="压缩的插件-terser-webpack-plugin" tabindex="-1"><a class="header-anchor" href="#压缩的插件-terser-webpack-plugin" aria-hidden="true">#</a> 压缩的插件:terser-webpack-plugin</h2><h2 id="插件地址" tabindex="-1"><a class="header-anchor" href="#插件地址" aria-hidden="true">#</a> 插件地址</h2>`,7),u={href:"https://github.com/webpack-contrib/terser-webpack-plugin",target:"_blank",rel:"noopener noreferrer"},d=a(`<p>安装:</p><div class="language-json line-numbers-mode" data-ext="json"><pre class="language-json"><code>yarn add terser-webpack-plugin
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="配置" tabindex="-1"><a class="header-anchor" href="#配置" aria-hidden="true">#</a> 配置</h2><div class="language-json line-numbers-mode" data-ext="json"><pre class="language-json"><code>const TerserPlugin = require(<span class="token string">&quot;terser-webpack-plugin&quot;</span>);
+module.exports = <span class="token punctuation">{</span>
+  optimization<span class="token operator">:</span> <span class="token punctuation">{</span>
+    minimize<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    minimizer<span class="token operator">:</span> <span class="token punctuation">[</span>
+      new TerserPlugin(<span class="token punctuation">{</span>
+        terserOptions<span class="token operator">:</span> <span class="token punctuation">{</span>
+          ecma<span class="token operator">:</span> undefined<span class="token punctuation">,</span>
+          parse<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+          compress<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+          mangle<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// Note \`mangle.properties\` is \`false\` by default.</span>
+          module<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+          <span class="token comment">// Deprecated</span>
+          output<span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+          format<span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+          toplevel<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+          nameCache<span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+          ie8<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+          keep_classnames<span class="token operator">:</span> undefined<span class="token punctuation">,</span>
+          keep_fnames<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+          safari10<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span>)<span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>;
+
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,4);function k(v,b){const e=p("ExternalLinkIcon");return o(),l("div",null,[r,n("p",null,[n("a",u,[s("https://github.com/webpack-contrib/terser-webpack-plugin"),c(e)]),s(" ​")]),d])}const h=t(i,[["render",k],["__file","webpack-plugins.html.vue"]]);export{h as default};

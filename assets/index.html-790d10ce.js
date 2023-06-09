@@ -1,0 +1,1 @@
+import{_ as o,r as a,o as n,c,b as r,d as e,e as s}from"./app-3d979d38.js";const d={},l=e("h1",{id:"kotlin教程",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#kotlin教程","aria-hidden":"true"},"#"),s(" kotlin教程")],-1);function _(i,h){const t=a("AutoCatalog");return n(),c("div",null,[l,r(t)])}const m=o(d,[["render",_],["__file","index.html.vue"]]);export{m as default};

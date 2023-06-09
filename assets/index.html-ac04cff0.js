@@ -1,0 +1,1 @@
+import{_ as t,r as a,o as n,c as r,b as s,d as e,e as c}from"./app-3d979d38.js";const d={},_=e("h1",{id:"springboot",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#springboot","aria-hidden":"true"},"#"),c(" springboot")],-1);function i(l,h){const o=a("AutoCatalog");return n(),r("div",null,[_,s(o)])}const f=t(d,[["render",i],["__file","index.html.vue"]]);export{f as default};

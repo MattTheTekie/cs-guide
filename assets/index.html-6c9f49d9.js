@@ -1,0 +1,1 @@
+import{_ as a,o as i,c as t,d as e,e as n}from"./app-3d979d38.js";const c={},o=e("h1",{id:"关于winui和maui",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#关于winui和maui","aria-hidden":"true"},"#"),n(" 关于winui和maui")],-1),r=[o];function s(d,_){return i(),t("div",null,r)}const h=a(c,[["render",s],["__file","index.html.vue"]]);export{h as default};

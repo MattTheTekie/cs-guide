@@ -1,0 +1,1 @@
+import{_ as o,r as t,o as n,c,b as r,d as e,e as s}from"./app-3d979d38.js";const d={},l=e("h1",{id:"golang-笔记",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#golang-笔记","aria-hidden":"true"},"#"),s(" golang 笔记")],-1);function _(i,h){const a=t("AutoCatalog");return n(),c("div",null,[l,r(a)])}const g=o(d,[["render",_],["__file","index.html.vue"]]);export{g as default};

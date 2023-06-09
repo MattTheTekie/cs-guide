@@ -1,0 +1,1 @@
+import{_ as o,o as r,c as t,d as e,e as a}from"./app-3d979d38.js";const s={},c=e("h1",{id:"gorm技巧",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#gorm技巧","aria-hidden":"true"},"#"),a(" gorm技巧")],-1),n=[c];function _(d,i){return r(),t("div",null,n)}const h=o(s,[["render",_],["__file","gorm-tips.html.vue"]]);export{h as default};

@@ -1,0 +1,4 @@
+import{_ as a,o as e,c as n,a as s}from"./app-3d979d38.js";const i={},t=s(`<h1 id="快速开始" tabindex="-1"><a class="header-anchor" href="#快速开始" aria-hidden="true">#</a> 快速开始</h1><h2 id="常用命令" tabindex="-1"><a class="header-anchor" href="#常用命令" aria-hidden="true">#</a> 常用命令</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code> npx react-native init <span class="token punctuation">[</span>dir<span class="token punctuation">]</span>
+
+react-native run-android
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,3),r=[t];function c(d,l){return e(),n("div",null,r)}const u=a(i,[["render",c],["__file","quick-start.html.vue"]]);export{u as default};

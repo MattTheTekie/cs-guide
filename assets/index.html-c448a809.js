@@ -1,0 +1,1 @@
+import{_ as a,o as c,c as t,d as e,e as o}from"./app-3d979d38.js";const r={},n=e("h1",{id:"capacitor",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#capacitor","aria-hidden":"true"},"#"),o(" capacitor")],-1),s=[n];function d(i,_){return c(),t("div",null,s)}const l=a(r,[["render",d],["__file","index.html.vue"]]);export{l as default};

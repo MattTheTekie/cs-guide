@@ -1,0 +1,15 @@
+import{_ as a,r as t,o,c,d as s,e as n,b as i,a as p}from"./app-3d979d38.js";const l={},r=s("h1",{id:"chrome插件开发",tabindex:"-1"},[s("a",{class:"header-anchor",href:"#chrome插件开发","aria-hidden":"true"},"#"),n(" chrome插件开发")],-1),u=s("h2",{id:"api文档",tabindex:"-1"},[s("a",{class:"header-anchor",href:"#api文档","aria-hidden":"true"},"#"),n(" api文档")],-1),d={href:"https://developer.chrome.com/docs/extensions/",target:"_blank",rel:"noopener noreferrer"},v=p(`<p>注意,如果使用webpack开发vue需要配置</p><p>如果出现<code>Refused to load the script because it violates the following Content Security Policy directive: &quot;script-src &#39;self&#39;</code></p><p>需要在mainfest.json配置</p><div class="language-json line-numbers-mode" data-ext="json"><pre class="language-json"><code> <span class="token property">&quot;permissions&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">&quot;tabs&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;storage&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;activeTab&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;*://*/*&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;&lt;all_urls&gt;&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;webRequest&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;webRequestBlocking&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;webNavigation&quot;</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;web_accessible_resources&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">&quot;dist/contentScripts/style.css&quot;</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;content_security_policy&quot;</span><span class="token operator">:</span> <span class="token string">&quot;script-src &#39;self&#39; http://localhost:3303  http://localhost:8098 &#39;unsafe-eval&#39;; object-src &#39;self&#39;&quot;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,4);function m(k,h){const e=t("ExternalLinkIcon");return o(),c("div",null,[r,u,s("p",null,[s("a",d,[n("https://developer.chrome.com/docs/extensions/"),i(e)])]),v])}const q=a(l,[["render",m],["__file","chrome-plugin-development.html.vue"]]);export{q as default};

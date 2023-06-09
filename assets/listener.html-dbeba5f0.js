@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as r,d as e,e as s}from"./app-3d979d38.js";const c={},n=e("h1",{id:"监听器",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#监听器","aria-hidden":"true"},"#"),s(" 监听器")],-1),o=[n];function _(d,i){return a(),r("div",null,o)}const h=t(c,[["render",_],["__file","listener.html.vue"]]);export{h as default};

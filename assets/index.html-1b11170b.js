@@ -1,0 +1,1 @@
+import{_ as t,r as a,o as n,c,b as r,d as e,e as s}from"./app-3d979d38.js";const d={},_=e("h1",{id:"mongodb",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#mongodb","aria-hidden":"true"},"#"),s(" mongodb")],-1);function l(i,m){const o=a("AutoCatalog");return n(),c("div",null,[_,r(o)])}const f=t(d,[["render",l],["__file","index.html.vue"]]);export{f as default};

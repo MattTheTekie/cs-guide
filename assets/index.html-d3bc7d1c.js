@@ -1,0 +1,1 @@
+import{_ as a,r as o,o as n,c,b as r,d as e,e as s}from"./app-3d979d38.js";const d={},_=e("h1",{id:"minecraft",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#minecraft","aria-hidden":"true"},"#"),s(" minecraft")],-1);function i(l,f){const t=o("AutoCatalog");return n(),c("div",null,[_,r(t)])}const h=a(d,[["render",i],["__file","index.html.vue"]]);export{h as default};

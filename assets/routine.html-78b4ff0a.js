@@ -1,0 +1,1 @@
+import{_ as t,o,c as a,d as e,e as r}from"./app-3d979d38.js";const c={},n=e("h1",{id:"go协程",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#go协程","aria-hidden":"true"},"#"),r(" go协程")],-1),s=[n];function _(d,i){return o(),a("div",null,s)}const l=t(c,[["render",_],["__file","routine.html.vue"]]);export{l as default};

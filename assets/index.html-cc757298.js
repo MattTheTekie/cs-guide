@@ -1,0 +1,1 @@
+import{_ as a,r as o,o as r,c as n,b as c,d as e,e as s}from"./app-3d979d38.js";const d={},l=e("h1",{id:"flutter",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#flutter","aria-hidden":"true"},"#"),s(" flutter")],-1);function _(i,f){const t=o("AutoCatalog");return r(),n("div",null,[l,c(t)])}const h=a(d,[["render",_],["__file","index.html.vue"]]);export{h as default};

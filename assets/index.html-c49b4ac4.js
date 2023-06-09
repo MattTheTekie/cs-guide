@@ -1,0 +1,1 @@
+import{_ as t,r as a,o as r,c as n,b as c,d as e,e as s}from"./app-3d979d38.js";const d={},_=e("h1",{id:"orm教程",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#orm教程","aria-hidden":"true"},"#"),s(" orm教程")],-1);function l(i,m){const o=a("AutoCatalog");return r(),n("div",null,[_,c(o)])}const f=t(d,[["render",l],["__file","index.html.vue"]]);export{f as default};

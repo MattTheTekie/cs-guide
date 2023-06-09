@@ -1,0 +1,1 @@
+import{_ as t,o as n,c as o,d as e,e as a}from"./app-3d979d38.js";const c={},r=e("h1",{id:"kotlin用法",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#kotlin用法","aria-hidden":"true"},"#"),a(" kotlin用法")],-1),s=[r];function d(i,_){return n(),o("div",null,s)}const h=t(c,[["render",d],["__file","index.html.vue"]]);export{h as default};

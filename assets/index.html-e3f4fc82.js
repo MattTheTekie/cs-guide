@@ -1,0 +1,1 @@
+import{_ as t,r as a,o as c,c as s,b as n,d as e,e as r}from"./app-3d979d38.js";const d={},_=e("h1",{id:"compose教程",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#compose教程","aria-hidden":"true"},"#"),r(" compose教程")],-1);function l(i,m){const o=a("AutoCatalog");return c(),s("div",null,[_,n(o)])}const p=t(d,[["render",l],["__file","index.html.vue"]]);export{p as default};

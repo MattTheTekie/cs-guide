@@ -1,0 +1,1 @@
+import{_ as a,r as o,o as n,c,b as r,d as e,e as s}from"./app-3d979d38.js";const d={},l=e("h1",{id:"linux教程",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#linux教程","aria-hidden":"true"},"#"),s(" linux教程")],-1);function _(i,u){const t=o("AutoCatalog");return n(),c("div",null,[l,r(t)])}const h=a(d,[["render",_],["__file","index.html.vue"]]);export{h as default};

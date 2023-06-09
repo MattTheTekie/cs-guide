@@ -1,0 +1,1 @@
+import{_ as t,r as a,o as c,c as r,b as n,d as e,e as s}from"./app-3d979d38.js";const d={},_=e("h1",{id:"chrome插件",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#chrome插件","aria-hidden":"true"},"#"),s(" chrome插件")],-1);function l(h,i){const o=a("AutoCatalog");return c(),r("div",null,[_,n(o)])}const f=t(d,[["render",l],["__file","index.html.vue"]]);export{f as default};

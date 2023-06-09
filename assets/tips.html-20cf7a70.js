@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as s,d as e,e as c}from"./app-3d979d38.js";const o={},r=e("h1",{id:"一些安卓技巧",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#一些安卓技巧","aria-hidden":"true"},"#"),c(" 一些安卓技巧")],-1),n=[r];function _(d,i){return a(),s("div",null,n)}const l=t(o,[["render",_],["__file","tips.html.vue"]]);export{l as default};

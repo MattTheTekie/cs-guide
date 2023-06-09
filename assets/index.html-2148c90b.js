@@ -1,0 +1,1 @@
+import{_ as a,r as o,o as r,c as n,b as c,d as e,e as s}from"./app-3d979d38.js";const d={},_=e("h1",{id:"dart教程",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#dart教程","aria-hidden":"true"},"#"),s(" dart教程")],-1);function l(i,h){const t=o("AutoCatalog");return r(),n("div",null,[_,c(t)])}const m=a(d,[["render",l],["__file","index.html.vue"]]);export{m as default};

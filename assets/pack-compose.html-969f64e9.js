@@ -1,0 +1,10 @@
+import{_ as s,r as t,o as i,c as o,d as e,e as n,b as c,a as p}from"./app-3d979d38.js";const l={},r=p(`<h1 id="compose-desktop打包" tabindex="-1"><a class="header-anchor" href="#compose-desktop打包" aria-hidden="true">#</a> compose desktop打包</h1><h2 id="打包exe" tabindex="-1"><a class="header-anchor" href="#打包exe" aria-hidden="true">#</a> 打包exe</h2><div class="hint-container tip"><p class="hint-container-title">提示</p><p>不推荐使用android studio<br> 建议用idea创建compose desktop项目</p></div><div class="language-powershell line-numbers-mode" data-ext="powershell"><pre class="language-powershell"><code><span class="token comment"># 这里可能会出现下载失败，如果下载失败，请手动到 Github 下载 wix311-binaries.zip。然后将文件命名为 wix311.zip 放在 build/wixToolset 下，重新运行 packageMsi</span>
+
+<span class="token punctuation">.</span>\\gradlew<span class="token punctuation">.</span>bat packageMsi
+<span class="token comment"># 下面这个会根据当前系统进行打包</span>
+<span class="token punctuation">.</span>\\gradlew<span class="token punctuation">.</span>bat package 
+<span class="token comment"># 打包绿色版</span>
+<span class="token punctuation">.</span>\\gradlew<span class="token punctuation">.</span>bat createDistributable
+<span class="token comment"># 打包jar</span>
+<span class="token punctuation">.</span>\\gradlew<span class="token punctuation">.</span>bat packageUberJarForCurrentOS
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,4),d={href:"https://plugins.jetbrains.com/plugin/16541-compose-multiplatform-ide-support",target:"_blank",rel:"noopener noreferrer"};function u(m,b){const a=t("ExternalLinkIcon");return i(),o("div",null,[r,e("p",null,[n("idea的compose预览插件(使用@preview)"),e("a",d,[n("https://plugins.jetbrains.com/plugin/16541-compose-multiplatform-ide-support"),c(a)])])])}const h=s(l,[["render",u],["__file","pack-compose.html.vue"]]);export{h as default};

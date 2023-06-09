@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as o,d as e,e as n}from"./app-3d979d38.js";const c={},r=e("h1",{id:"从java到kotlin",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#从java到kotlin","aria-hidden":"true"},"#"),n(" 从java到kotlin")],-1),s=[r];function i(_,l){return t(),o("div",null,s)}const h=a(c,[["render",i],["__file","java-to-kotlin.html.vue"]]);export{h as default};

@@ -1,0 +1,1 @@
+import{_ as a,r as o,o as s,c as n,b as c,d as e,e as r}from"./app-3d979d38.js";const d={},l=e("h1",{id:"svelte教程",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#svelte教程","aria-hidden":"true"},"#"),r(" svelte教程")],-1);function _(i,h){const t=o("AutoCatalog");return s(),n("div",null,[l,c(t)])}const m=a(d,[["render",_],["__file","index.html.vue"]]);export{m as default};

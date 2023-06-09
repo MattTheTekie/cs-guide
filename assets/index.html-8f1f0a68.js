@@ -1,0 +1,1 @@
+import{_ as a,r as o,o as s,c as n,b as c,d as e,e as r}from"./app-3d979d38.js";const d={},l=e("h1",{id:"mysql",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#mysql","aria-hidden":"true"},"#"),r(" mysql")],-1);function _(i,m){const t=o("AutoCatalog");return s(),n("div",null,[l,c(t)])}const f=a(d,[["render",_],["__file","index.html.vue"]]);export{f as default};
